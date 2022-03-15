@@ -14,7 +14,28 @@ function App() {
       name: "Compostable mailer",
       description: "The perfect alternative to plastic poly mailer bags.",
       imageUrl: "noissue-mailer.png",
-      quantity: 1,
+      quantity: 2,
+    },
+    {
+      price: 120,
+      name: "noissue Tissue",
+      description: "Recycled padded mailer",
+      imageUrl: "padded-mailer.png",
+      quantity: 0,
+    },
+    {
+      price: 100,
+      name: "Recycled Mailer",
+      description: "The perfect recycled mailer bags.",
+      imageUrl: "recycled-mailer.png",
+      quantity: 0,
+    },
+    {
+      price: 100,
+      name: "Shipping Label",
+      description: "Shipping Label.",
+      imageUrl: "shipping-labels.png",
+      quantity: 0,
     },
   ];
   return (
